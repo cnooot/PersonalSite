@@ -1,0 +1,243 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #2d6a4f;
+  text-decoration: inherit;
+  font-size: 1.1rem;
+}
+a:hover {
+  color: #1b4332;
+}
+
+body {
+  margin: auto;
+  width: 1200px;
+  min-width: 320px;
+  min-height: 100vh;
+  border: none;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.1);
+  overflow-x: hidden;
+  
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  padding: 11px 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color: #40916C;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #2d6a4f;
+  color: #74C69D;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+header img {
+  height: 8rem;
+  border-radius: 1rem;
+}
+
+.nav .links{
+  list-style: none;
+  margin: auto;
+  border: none;
+  display: flex;
+  gap: 7rem;
+}
+
+.nav .links li a{
+  transition: all 0.3s ease 0s;
+}
+
+.nav .links li a:hover{
+  color: #74C69D;
+}
+
+.link {
+  position: relative;
+  padding-bottom: 0.75rem;
+  color: #fff;
+}
+
+.link::after{
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #74C69D;
+  transition: all 0.3s ease;
+}
+
+.link:hover::after{
+  width: 100%;
+}
+
+.about{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 5rem 5rem; 
+  place-content: center;
+  
+}
+
+
+.gifpepe img{
+  height: 554px;
+  width: 450px;
+  border-radius: 1rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+}
+
+.AboutMe{
+  height: 490px;
+  width: 440px;
+  border-radius: 1rem;
+  border: none;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.41);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+}
+
+.AboutMe h1 span{
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
+
+.AboutMe p{
+  font-size: 22px;
+  color: #ccc;
+}
+
+.AboutMe h1{
+  color: #ccc;
+}
+
+
+
+.Projects{
+  display: grid;
+  place-content: center;
+  grid-template-columns: 1fr 1fr ;
+  padding: 5rem;
+  padding-top: 1rem;
+  gap: 2rem;
+}
+
+.Tit{
+  padding-top: 2.7rem;
+}
+
+.Tit h2{
+  text-align: center;
+  font-size: 2.3rem;
+}
+
+.Projects img{
+  filter: blur(1.8px);
+  height: 23rem;
+  border-radius: 1rem;
+  object-fit: cover;
+  cursor: pointer;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease-in-out;
+}
+
+.Projects img:hover{
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.9);
+  filter: blur(5px);
+}
+
+.tomsite img{
+  width: 450px;
+}
+
+.Projects .calc img{
+  width: 504px;
+}
+
+.random img{
+  width: 450px;
+}
+
+.todolist img{
+  width: 504px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #6798c0;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
