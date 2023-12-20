@@ -40,7 +40,7 @@ body {
   min-height: 100vh;
   border: none;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
-  background-color: rgba(51, 53, 51, .93);
+  background-color: rgba(51, 53, 51, .8);
   overflow-x: hidden;
   border-radius: 1rem;
   
