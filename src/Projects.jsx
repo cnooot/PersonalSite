@@ -26,9 +26,9 @@ function Projects(){
                     </a>
                 </div>
                 <div className="todolist">
-                <a href="https://comforting-twilight-357180.netlify.app" target="_blank">
-                    <img src={todolsit} alt="img" />
-                </a>
+                    <a href="https://comforting-twilight-357180.netlify.app" target="_blank">
+                        <img src={todolsit} alt="img" />
+                    </a>
                 </div>
             </div>
         </div>
