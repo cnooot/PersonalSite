@@ -1,4 +1,4 @@
-import pepe from "./assets/pepe-macara-pepe.gif"
+import pepe from "./assets/pikapika.gif"
 
 function About(){
     return(
