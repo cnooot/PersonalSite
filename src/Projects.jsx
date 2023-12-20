@@ -2,7 +2,7 @@ import pepe from "./assets/pepe-macara-pepe.gif"
 import tom from "./assets/tomsite.png"
 import calc from "./assets/calc.png"
 import random from "./assets/randomgame.png"
-
+import todolsit from "./assets/todolist.png"
 
 
 function Projects(){
@@ -26,7 +26,9 @@ function Projects(){
                     </a>
                 </div>
                 <div className="todolist">
-                    <img src={pepe} alt="img" />
+                <a href="https://comforting-twilight-357180.netlify.app" target="_blank">
+                    <img src={todolsit} alt="img" />
+                </a>
                 </div>
             </div>
         </div>

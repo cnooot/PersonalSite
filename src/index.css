@@ -51,6 +51,7 @@ button {
   color: #40916C;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin-bottom: 15px;
 }
 button:hover {
   border-color: #2d6a4f;
