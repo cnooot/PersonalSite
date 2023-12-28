@@ -1,10 +1,10 @@
 import pepe from "./assets/pikapika.gif"
-
+import wolf from "./assets/dancingwolf.gif"
 
 function Header(){
     return(
         <header>
-            <img src={pepe} alt="gif" class="gif"></img>
+            <img src={wolf} alt="gif" class="gif"></img>
             <nav className="nav">
                 <ul className="links">
                     <li className="link"><a href="#">About</a></li>

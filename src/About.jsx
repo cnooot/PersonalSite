@@ -1,10 +1,11 @@
 import pepe from "./assets/pikapika.gif"
+import wolf from "./assets/dancingwolf.gif"
 
 function About(){
     return(
         <div className="about">
             <div className="gifpepe">
-                <img src={pepe} alt="maraca" />
+                <img src={wolf} alt="maraca" />
             </div>
             <div className="AboutMe">
                 <h1>Hi, My name is <span>Nikodem</span></h1>
