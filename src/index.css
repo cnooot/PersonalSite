@@ -206,6 +206,7 @@ header img {
 
 .Projects img{
   filter: blur(.1px);
+  filter: brightness(50%);
   height: 23rem;
   border-radius: 1rem;
   object-fit: cover;
@@ -216,7 +217,7 @@ header img {
 
 .Projects img:hover{
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.9);
-  
+  filter: brightness(75%);
 }
 
 .tomsite img{
