@@ -206,7 +206,7 @@ header img {
 
 .Projects img{
   filter: blur(.1px);
-  filter: brightness(50%);
+  filter: brightness(70%);
   height: 23rem;
   border-radius: 1rem;
   object-fit: cover;
