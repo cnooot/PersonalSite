@@ -183,8 +183,24 @@ header img {
 }
 
 .Tit h2{
-  text-align: center;
+  text-align: right;
+  padding: 0.6rem;
+  margin-top: 1rem;
+  margin-right: 7rem;
+  
   font-size: 2.3rem;
+  color: #333533;
+}
+
+.projectstitle{
+  margin-bottom: 1rem;
+  border: none;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  max-width: 66%;
+  height: 5rem;
+  background-color: rgba(214, 214, 214, 0.41);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
 }
 
 .Projects img{
@@ -218,15 +234,16 @@ header img {
   width: 504px;
 }
 
+.slidemenu{
+  border: 1px solid red;
+}
 
+.slidemenu .slidenav ul{
+  display: flex;
+  list-style: none;
+  gap: 1rem;
 
-
-
-
-
-
-
-
+}
 
 
 

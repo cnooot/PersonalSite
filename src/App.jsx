@@ -14,13 +14,12 @@ function App() {
 
   return (
     <>
-      
+
       <Header/>
       <AnimatedBackground/>
       <About/>
       <Projects/>
       <Stack/>
-      
     </>
   );
 }
