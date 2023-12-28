@@ -205,7 +205,7 @@ header img {
 }
 
 .Projects img{
-  filter: blur(.8px);
+  filter: blur(.1px);
   height: 23rem;
   border-radius: 1rem;
   object-fit: cover;
