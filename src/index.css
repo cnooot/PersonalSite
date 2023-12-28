@@ -209,7 +209,7 @@ header img {
   height: 23rem;
   border-radius: 1rem;
   object-fit: cover;
-  cursor: pointer;
+  /* cursor: pointer */;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
   transition: all 0.3s ease-in-out;
 }

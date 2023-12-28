@@ -70,9 +70,9 @@ function Projects() {
       </div>
       <div className="Projects">
         <div className="tomsite" onMouseEnter={handleMouseEnter(setTomsiteHovered)} onMouseLeave={handleMouseLeave(setTomsiteHovered)}>
-          <a href="#"  rel="noopener noreferrer">
+          
             <img src={tom} alt="img" />
-          </a>
+          
           {tomsiteHovered && (
             <animated.div className="slidemenu" style={slideMenuAnimationEnter}>
               <nav className="slidenav">
@@ -103,9 +103,9 @@ function Projects() {
           )}
         </div>
         <div className="calc" onMouseEnter={handleMouseEnter(setCalcHovered)} onMouseLeave={handleMouseLeave(setCalcHovered)}>
-          <a href="#"   >
+          
             <img src={calc} alt="img" />
-          </a>
+          
           {calcHovered && (
             <animated.div className="slidemenu" style={calcAnimationEnter}>
               <nav className="slidenav">
@@ -136,9 +136,9 @@ function Projects() {
           )}
         </div>
         <div className="random" onMouseEnter={handleMouseEnter(setRandomHovered)} onMouseLeave={handleMouseLeave(setRandomHovered)}>
-          <a href="#"   >
+          
             <img src={random} alt="img" />
-          </a>
+          
           {randomHovered && (
             <animated.div className="slidemenu" style={randomAnimationEnter}>
               <nav className="slidenav">
@@ -169,9 +169,9 @@ function Projects() {
           )}
         </div>
         <div className="todolist" onMouseEnter={handleMouseEnter(setTodolistHovered)} onMouseLeave={handleMouseLeave(setTodolistHovered)}>
-          <a href="#"   >
+          
             <img src={todolist} alt="img" />
-          </a>
+          
           {todolistHovered && (
             <animated.div className="slidemenu" style={todolistAnimationEnter}>
               <nav className="slidenav">
