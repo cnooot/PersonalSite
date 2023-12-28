@@ -1,5 +1,5 @@
 import pepe from "./assets/pikapika.gif"
-import wolf from "./assets/dancingwolf.gif"
+import wolf from "./assets/chipi-chapa.gif"
 
 function Header(){
     return(
