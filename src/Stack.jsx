@@ -1,8 +1,10 @@
 
 function Stack(){
     return(
-        <div className="stack">
-            <h2>My Tech Stack</h2>
+        <div className="stackparent">
+            <div className="stack">
+                <h2>My Tech Stack</h2>
+            </div>
         </div>
 );
 }
