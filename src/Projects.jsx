@@ -70,7 +70,7 @@ function Projects() {
       </div>
       <div className="Projects">
         <div className="tomsite" onMouseEnter={handleMouseEnter(setTomsiteHovered)} onMouseLeave={handleMouseLeave(setTomsiteHovered)}>
-          <a href="https://strong-faloodeh-f3a1f1.netlify.app" target="_blank" rel="noopener noreferrer">
+          <a href="#"  rel="noopener noreferrer">
             <img src={tom} alt="img" />
           </a>
           {tomsiteHovered && (
@@ -78,10 +78,10 @@ function Projects() {
               <nav className="slidenav">
                 <ul>
                   <li>
-                    <a href="#">Live Preview</a>
+                    <a className="link" href="https://strong-faloodeh-f3a1f1.netlify.app" target="_blank">Live Preview</a>
                   </li>
                   <li>
-                    <a href="#">About Site</a>
+                    <a className="link" href="#">About Site</a>
                   </li>
                 </ul>
               </nav>
@@ -92,10 +92,10 @@ function Projects() {
               <nav className="slidenav">
                 <ul>
                   <li>
-                    <a href="#">Live Preview</a>
+                    <a className="link" href="https://strong-faloodeh-f3a1f1.netlify.app" target="_blank">Live Preview</a>
                   </li>
                   <li>
-                    <a href="#">About Site</a>
+                    <a className="link" href="#">About Site</a>
                   </li>
                 </ul>
               </nav>
@@ -103,7 +103,7 @@ function Projects() {
           )}
         </div>
         <div className="calc" onMouseEnter={handleMouseEnter(setCalcHovered)} onMouseLeave={handleMouseLeave(setCalcHovered)}>
-          <a href="https://flourishing-pothos-c85010.netlify.app" target="_blank">
+          <a href="#"   >
             <img src={calc} alt="img" />
           </a>
           {calcHovered && (
@@ -111,10 +111,10 @@ function Projects() {
               <nav className="slidenav">
                 <ul>
                   <li>
-                    <a href="#">Live Preview</a>
+                    <a className="link" href="https://flourishing-pothos-c85010.netlify.app " target="_blank">Live Preview</a>
                   </li>
                   <li>
-                    <a href="#">About Site</a>
+                    <a className="link" href="#">About Site</a>
                   </li>
                 </ul>
               </nav>
@@ -125,10 +125,10 @@ function Projects() {
               <nav className="slidenav">
                 <ul>
                   <li>
-                    <a href="#">Live Preview</a>
+                    <a className="link" href="https://flourishing-pothos-c85010.netlify.app" target="_blank">Live Preview</a>
                   </li>
                   <li>
-                    <a href="#">About Site</a>
+                    <a className="link" href="#">About Site</a>
                   </li>
                 </ul>
               </nav>
@@ -136,7 +136,7 @@ function Projects() {
           )}
         </div>
         <div className="random" onMouseEnter={handleMouseEnter(setRandomHovered)} onMouseLeave={handleMouseLeave(setRandomHovered)}>
-          <a href="https://enchanting-tulumba-b0699a.netlify.app" target="_blank">
+          <a href="#"   >
             <img src={random} alt="img" />
           </a>
           {randomHovered && (
@@ -144,10 +144,10 @@ function Projects() {
               <nav className="slidenav">
                 <ul>
                   <li>
-                    <a href="#">Live Preview</a>
+                    <a className="link" href="https://enchanting-tulumba-b0699a.netlify.app" target="_blank">Live Preview</a>
                   </li>
                   <li>
-                    <a href="#">About Site</a>
+                    <a className="link" href="#">About Site</a>
                   </li>
                 </ul>
               </nav>
@@ -158,10 +158,10 @@ function Projects() {
               <nav className="slidenav">
                 <ul>
                   <li>
-                    <a href="#">Live Preview</a>
+                    <a className="link" href="https://enchanting-tulumba-b0699a.netlify.app" target="_blank">Live Preview</a>
                   </li>
                   <li>
-                    <a href="#">About Site</a>
+                    <a className="link" href="#">About Site</a>
                   </li>
                 </ul>
               </nav>
@@ -169,7 +169,7 @@ function Projects() {
           )}
         </div>
         <div className="todolist" onMouseEnter={handleMouseEnter(setTodolistHovered)} onMouseLeave={handleMouseLeave(setTodolistHovered)}>
-          <a href="https://comforting-twilight-357180.netlify.app" target="_blank">
+          <a href="#"   >
             <img src={todolist} alt="img" />
           </a>
           {todolistHovered && (
@@ -177,10 +177,10 @@ function Projects() {
               <nav className="slidenav">
                 <ul>
                   <li>
-                    <a href="#">Live Preview</a>
+                    <a className="link" href="https://comforting-twilight-357180.netlify.app" target="_blank">Live Preview</a>
                   </li>
                   <li>
-                    <a href="#">About Site</a>
+                    <a className="link" href="#">About Site</a>
                   </li>
                 </ul>
               </nav>
@@ -191,10 +191,10 @@ function Projects() {
               <nav className="slidenav">
                 <ul>
                   <li>
-                    <a href="#">Live Preview</a>
+                    <a className="link" href="https://comforting-twilight-357180.netlify.app" target="_blank">Live Preview</a>
                   </li>
                   <li>
-                    <a href="#">About Site</a>
+                    <a className="link" href="#">About Site</a>
                   </li>
                 </ul>
               </nav>

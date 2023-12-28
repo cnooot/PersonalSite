@@ -279,7 +279,7 @@ header img {
   right: 0;
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
-  background-color: rgba(0, 0, 0, 0.41);
+  background-color: rgba(0, 0, 0, 0.55);
   width: 420px;
   padding: 10px;
   transform: translateY(100%);
@@ -309,11 +309,12 @@ header img {
   list-style: none;
   padding: 1rem;
   margin: 0;
+  
 }
 
-
-
-
+.slidenav li a{
+  font-size: 1.4rem;
+}
 
 
 
