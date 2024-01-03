@@ -13,17 +13,26 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+ReactSwitch{
+  color: red;
+}
+
 #light{
-  background-color: rgb(218, 163, 163);
+  background-color: rgba(204, 204, 204, 0.8);
 }
 
 #dark{
-  background-color: rgba(51, 53, 51, .8);
+  background-color: rgba(36, 36, 36, 0.8);
 }
 
+#light a {
+  font-weight: 500;
+  color: #ccc;
+  text-decoration: inherit;
+  font-size: 1.1rem;
+}
 
-
-a {
+#dark a {
   font-weight: 500;
   color: #ccc;
   text-decoration: inherit;
@@ -61,10 +70,15 @@ h1 {
   line-height: 1.1;
 }
 
+#light button{
+  background-color: #242424;
+}
+
 button {
   border-radius: 1rem;
   border: 1px solid transparent;
   padding: 11px 1rem;
+  padding-bottom: 12px;
   font-size: 1.1rem;
   font-weight: 500;
   font-family: inherit;
