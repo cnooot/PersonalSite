@@ -10,7 +10,7 @@ import { useSpring, animated } from 'react-spring';
 import { createContext, useState } from "react";
 import ReactSwitch from "react-switch";
 import Switch from 'react-switch';
-import { ThemeProvider } from "styled-components";
+/* import { ThemeProvider } from "styled-components"; */
 
 
 export const ThemeContext = createContext(null);
