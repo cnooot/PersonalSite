@@ -1,10 +1,25 @@
-import pepe from "./assets/pikapika.gif"
+/*  import pepe from "./assets/pikapika.gif"
 import wolf from "./assets/chipi-chapa.gif"
+import { createContext, useState } from "react";
+import ReactSwitch from "react-switch";
+import Switch from 'react-switch';
+import { ThemeProvider } from "styled-components";
+import reacswitch from "./switch";
+export const ThemeContext = createContext();
 
-function Header(){
+
+
+function Header() {
+    
+
+
     return(
         <header>
-            <img src={wolf} alt="gif" class="gif"></img>
+            
+            <div className="switch">
+              
+            </div>
+         
             <nav className="nav">
                 <ul className="links">
                     <li className="link"><a href="#">About</a></li>
@@ -14,7 +29,8 @@ function Header(){
             </nav>
             <button class="getintouch">Hire me!</button>
         </header>
-);
+    );
 }
 
-export default Header
+
+export default Header;  */

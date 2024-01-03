@@ -1,11 +1,14 @@
-import pepe from "./assets/pikapika.gif"
-import wolf from "./assets/chipi-chapa.gif"
+import React, { useContext } from 'react';
+import { ThemeContext } from './App';
+import lightbatman from "./assets/batmanlight.gif"
+import batman from "./assets/batman.gif"
 
 function About(){
+    const { theme } = useContext(ThemeContext);
     return(
         <div className="about">
             <div className="gifpepe">
-                <img src={wolf} alt="maraca" />
+                <img src={theme === 'light' ? lightbatman : batman} alt="maraca" />
             </div>
             <div className="AboutMe">
                 <h1>Hi, My name is <span>Nikodem</span></h1>
