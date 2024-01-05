@@ -17,7 +17,14 @@ ReactSwitch{
   color: red;
 }
 
+
+
+#light {
+  background-color: #ccc;
+}
+
 #light{
+  background: #ccc ;
   background-color: rgba(204, 204, 204, 0.8);
 }
 
@@ -25,11 +32,14 @@ ReactSwitch{
   background-color: rgba(36, 36, 36, 0.8);
 }
 
+
+
 #light a {
   font-weight: 500;
   color: #ccc;
   text-decoration: inherit;
   font-size: 1.1rem;
+  
 }
 
 #dark a {
@@ -38,6 +48,9 @@ ReactSwitch{
   text-decoration: inherit;
   font-size: 1.1rem;
 }
+
+
+
 a:hover {
   color: #FFD100;
 }
@@ -71,7 +84,7 @@ h1 {
 }
 
 #light button{
-  background-color: #242424;
+  background-color: #303030;
 }
 
 button {
@@ -106,6 +119,7 @@ header {
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  
 }
 
 
@@ -115,11 +129,14 @@ header {
   border: none;
   display: flex;
   gap: 7rem;
+  
+  
 }
 
 .nav .links li a{
   transition: all 0.3s ease 0s;
 }
+
 
 .nav .links li a:hover{
   color: #FFD100;
@@ -129,6 +146,7 @@ header {
   position: relative;
   padding-bottom: 0.75rem;
   color: #ccc;
+  
 }
 
 .link::after{
@@ -364,6 +382,31 @@ header {
   height: 5rem;
   background-color: rgba(214, 214, 214, 0.41);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+  
+}
+
+.stackicons{
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  margin: auto;
+  overflow: hidden;
+  gap: 5rem;
+   
+  
+  
+}
+
+.stackicons img {
+  width: 128px;
+  height: 173px;
+  border: 1px solid red;
+  margin-right: 1rem;
+  
+}
+
+.scroll{
+  overflow: hidden;
 }
 
 
@@ -375,18 +418,3 @@ header {
 
 
 
-
-
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #6798c0;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}

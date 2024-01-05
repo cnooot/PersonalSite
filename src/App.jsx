@@ -4,12 +4,14 @@ import { loadFull } from "tsparticles";
 /* import Header from "./Header.jsx"; */
 import About from "./About.jsx";
 import Projects from "./Projects.jsx";
-import Stack from "./Stack.jsx";
+import Menu from "./Menu.jsx";
 import AnimatedBackground from './Background.jsx';
 import { useSpring, animated } from 'react-spring';
 import { createContext, useState } from "react";
 import ReactSwitch from "react-switch";
 import Switch from 'react-switch';
+import ScrollMenu from 'react-scroll-horizontal'
+
 /* import { ThemeProvider } from "styled-components"; */
 
 
@@ -40,7 +42,7 @@ function App() {
           
         <About/>
         <Projects/>
-        <Stack/>
+        <Menu/>
       </div> 
     </ThemeContext.Provider>
   );
