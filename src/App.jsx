@@ -1,7 +1,6 @@
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-/* import Header from "./Header.jsx"; */
 import About from "./About.jsx";
 import Projects from "./Projects.jsx";
 import Menu from "./Menu.jsx";
@@ -10,22 +9,24 @@ import { useSpring, animated } from 'react-spring';
 import { createContext, useState } from "react";
 import ReactSwitch from "react-switch";
 import Switch from 'react-switch';
-import ScrollMenu from 'react-scroll-horizontal'
-
-/* import { ThemeProvider } from "styled-components"; */
 
 
 export const ThemeContext = createContext(null);
 
 function App() {
-  
   const toggleTheme = () => {
     setTheme((curr) => (curr === "light" ? "dark" : "light"));
+    
   };
   const [theme, setTheme] = useState("light");
+  const lightBackgroundColor = "#ccc";
+  const darkBackgroundColor = "#242424";
   return (  
       <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <div className="application" id={theme}> 
+      <div className="application" id={theme} > 
+      <style>
+          {`:root { background-color: ${theme === "light" ? lightBackgroundColor : darkBackgroundColor}; }`}
+        </style>
             <header>
               <div className="switch">
                 <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />

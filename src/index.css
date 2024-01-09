@@ -1,22 +1,38 @@
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-ReactSwitch{
-  color: red;
+body {
+  margin: auto;
+  width: 1200px;
+  min-width: 320px;
+  min-height: 100vh;
+  border: none;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+  background-color: rgba(51, 53, 51, .8);
+  overflow-x: hidden;
+  border-radius: 1rem;
+  
 }
 
+#light :root{
+  background-color: #ccc;
+}
+
+/* ReactSwitch{ */
+/*   color: red; */
+/* } */
+/*  */
 
 
 #light {
@@ -65,18 +81,6 @@ a:hover {
 /*   z-index: -1;  */
 /* } */
 
-body {
-  margin: auto;
-  width: 1200px;
-  min-width: 320px;
-  min-height: 100vh;
-  border: none;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
-  background-color: rgba(51, 53, 51, .8);
-  overflow-x: hidden;
-  border-radius: 1rem;
-  
-}
 
 h1 {
   font-size: 3.2em;
