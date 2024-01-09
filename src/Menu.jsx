@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import angular from "./assets/angular.svg"
 import css from "./assets/css3-alt.svg"
 import html from "./assets/html5.svg"

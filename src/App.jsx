@@ -1,14 +1,14 @@
 import { useCallback } from "react";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
+
+
 import About from "./About.jsx";
 import Projects from "./Projects.jsx";
 import Menu from "./Menu.jsx";
-import AnimatedBackground from './Background.jsx';
-import { useSpring, animated } from 'react-spring';
+
+
 import { createContext, useState } from "react";
 import ReactSwitch from "react-switch";
-import Switch from 'react-switch';
+
 
 
 export const ThemeContext = createContext(null);
