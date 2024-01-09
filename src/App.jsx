@@ -1,11 +1,7 @@
 import { useCallback } from "react";
-
-
 import About from "./About.jsx";
 import Projects from "./Projects.jsx";
 import Menu from "./Menu.jsx";
-
-
 import { createContext, useState } from "react";
 import ReactSwitch from "react-switch";
 
