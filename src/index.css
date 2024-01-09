@@ -391,10 +391,13 @@ header {
   justify-self: center;
   margin: auto;
   overflow: hidden;
-  gap: 5rem;
-   
-  
-  
+  gap: 2rem;  
+
+}
+
+.stackchild{
+  display: flex;
+  width: 900px;
 }
 
 .stackicons img {
