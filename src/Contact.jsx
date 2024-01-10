@@ -21,7 +21,7 @@ function Contact(){
                     <input type="email" id="email" className="email" placeholder="Your email" required/>
                 </div>
                 <div className="botcontact">
-                    <textarea name="" id="txtarea" cols="30" rows="10" placeholder="Leave ur message here!"></textarea>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Leave ur message here!"></textarea>
                     <div className="buttonsubmit">
                         <button className="submitbutton">SUBMIT</button>
                     </div>
