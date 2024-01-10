@@ -64,7 +64,7 @@ function Projects() {
   });
 
   return (
-    <div className="Tit">
+    <div className="Tit" id="projects">
       <div className="projectstitle">
         <h2>My projects</h2>
       </div>

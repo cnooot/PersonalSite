@@ -14,7 +14,7 @@ function Contact(){
                 <h2>Get in touch!</h2>
             </div>
             <form className="contactform" onSubmit={sendEmail}>
-            <div className="contactbox">
+            <div className="contactbox" id="getintouch">
                 <div className="topcontact">
                     <input type="text" id="name" name="name" className="name" placeholder="Your Name" required/>  
                     <input type="text" id="phone" name="numb" className="phone" placeholder="Your phone number" required/>

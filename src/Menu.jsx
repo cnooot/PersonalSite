@@ -13,7 +13,7 @@ function Menu() {
     
     <div className="">
       <div className="stackparent">
-            <div className="stack">
+            <div className="stack" id="tech">
                 <h2>My Tech Stack</h2>
             </div>
         </div>

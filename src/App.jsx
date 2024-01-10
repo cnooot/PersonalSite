@@ -29,12 +29,12 @@ function App() {
               </div>
                 <nav className="nav">
                   <ul className="links">
-                    <li className="link"><a href="#">About</a></li>
-                    <li id="link1" className="link"><a href="##">Projects</a></li>
-                    <li id="link2" className="link"><a href="#">Get in touch!</a></li>
+                    <li className="link"><a href="#about">About</a></li>
+                    <li id="link1" className="link"><a href="#projects">Projects</a></li>
+                    <li id="link2" className="link"><a href="#tech">Tech stack</a></li>
                   </ul>
                 </nav>
-                  <button class="getintouch">Hire me!</button>
+                  <button class="getintouch"><a href="#getintouch">Get in touch!</a></button>
             </header>
           
         <About/>

@@ -6,7 +6,7 @@ import batman from "./assets/batman.gif"
 function About(){
     const { theme } = useContext(ThemeContext);
     return(
-        <div className="about">
+        <div className="about" id='about'>
             <div className="gifpepe">
                 <img src={theme === 'light' ? lightbatman : batman} alt="maraca" />
             </div>
