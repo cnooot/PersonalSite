@@ -17,8 +17,8 @@ function Contact(){
             <div className="contactbox">
                 <div className="topcontact">
                     <input type="text" id="name" name="name" className="name" placeholder="Your Name" required/>  
-                    <input type="text" id="phone" className="phone" placeholder="Your phone number" required/>
-                    <input type="email" id="email" className="email" placeholder="Your email" required/>
+                    <input type="text" id="phone" name="numb" className="phone" placeholder="Your phone number" required/>
+                    <input type="email" id="email" name="email" className="email" placeholder="Your email" required/>
                 </div>
                 <div className="botcontact">
                     <textarea name="message" id="message" cols="30" rows="10" placeholder="Leave ur message here!"></textarea>
