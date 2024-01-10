@@ -4,8 +4,8 @@ import Projects from "./Projects.jsx";
 import Menu from "./Menu.jsx";
 import { createContext, useState } from "react";
 import ReactSwitch from "react-switch";
-
-
+import Contact from "./Contact.jsx"
+import Footer from "./Footer.jsx"
 
 export const ThemeContext = createContext(null);
 
@@ -40,6 +40,8 @@ function App() {
         <About/>
         <Projects/>
         <Menu/>
+        <Contact/>
+        <Footer/>
       </div> 
     </ThemeContext.Provider>
   );
