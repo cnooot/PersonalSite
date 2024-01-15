@@ -9,6 +9,16 @@ import reactstack from "./assets/react.svg"
 
 
 function Menu() {
+  const handleScroll = (event) => {
+    const stackchild = event.target;
+    const scrollAmount = event.deltaY;
+    stackchild.scrollTo({
+      top: 0,
+      left: container.scrollLeft + scrollAmount,
+      behavior: 'smooth'
+
+    });
+  };
   return (
     
     <div className="">
@@ -17,8 +27,8 @@ function Menu() {
                 <h2>My Tech Stack</h2>
             </div>
         </div>
-        <div className="stackicons">
-            <div className="stackchild">
+        <div className="stackicons" >
+            <div className="stackchild" onWheel={handleScroll}>
               <img src={angular} alt="" />
               <img src={css} alt="css icon" />
               <img src={html} alt="html icon" />

@@ -403,13 +403,28 @@ header {
 
 .stackchild{
   display: flex;
-  width: 900px;
+  width: 450px;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+.stackchild::-webkit-scrollbar {
+  height: 8px;
+}
+
+.stackchild::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.stackchild::-webkit-scrollbar-track {
+  background-color: white;
+  border-radius: 10px;
 }
 
 .stackicons img {
   width: 128px;
   height: 173px;
-  border: 1px solid red;
+  border: none;
   margin-right: 1rem;
   
 }
@@ -417,11 +432,6 @@ header {
 .scroll{
   overflow: hidden;
 }
-
-
-
-
-
 
 
 
